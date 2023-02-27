@@ -1,0 +1,79 @@
+.logo_pic{
+    width: 70px;
+    height: 70px;
+}
+
+.logo_pic1{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.logo_headings{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #038c73;
+}
+
+.logo_paras{
+    color: grey;
+    position: relative;
+    top: -7px;
+    letter-spacing: 9px;
+    left: 4px;
+}
+
+.lists_heading{
+    color: #038c73;
+    font-weight: bold;
+}
+
+.main_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main_list>li{
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.pay_logo{
+    width: 70px;
+   height: 50px;
+}
+
+.payment_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment_list>li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.nhs_logo{
+    width: 100px;
+    height: 70px;
+}
+
+.social_logo{
+    color: #038c73;
+    font-size: 42px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:968px) {
+    .list_one, .list_two, .list_three, .pay, .approve, .social_media{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .social_logo{
+        margin-right: 0px;
+    }
+}

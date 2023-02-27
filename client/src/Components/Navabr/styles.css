@@ -1,0 +1,153 @@
+.top_bar {
+  background-color: #038c73;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main_navbar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mail_icon {
+  margin-right: 7px;
+  font-size: 20px;
+}
+
+.mobile_icon {
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+.mail_text {
+  font-size: 14px;
+}
+
+.mobile_text {
+  font-size: 14px;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.nav_brand {
+  font-weight: bold;
+  margin-left: 10px;
+  color: #038c73;
+}
+
+.treatment {
+  color: #038c73;
+  font-weight: bold;
+}
+
+.nav_list {
+  list-style-type: none;
+  position: relative;
+  top: 6px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav_list > li {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.router_link {
+  text-decoration: none;
+  color: black;
+}
+
+.router_link:hover {
+  color: #038c73;
+}
+
+.btn_reglog {
+  background-color: #038c73;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 4px 12px 4px 12px;
+  transition: 0.5s all ease;
+  border-radius: 7px;
+}
+
+.btn_reglog:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart_icon {
+  font-size: 24px;
+  margin-left: 20px;
+  position: relative;
+  top: -3px;
+}
+
+.badge_counter {
+  width: 18px;
+  height: 18px;
+  color: white;
+  background-color: #038c73;
+  position: absolute;
+  border-radius: 50%;
+  left: 33px;
+  top: -10px;
+}
+
+.count {
+  position: relative;
+  left: 4px;
+  top: -5px;
+}
+
+.dropdown_icon {
+  position: relative;
+  top: -2px;
+}
+
+.avatar_pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.pro_img {
+  width: fit-content;
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+@media screen and (max-width: 968px) {
+  .top_bar {
+    display: none;
+  }
+  .nav_list > li {
+    display: block;
+    margin-top: 20px;
+  }
+  .main_navbar {
+    margin-bottom: 0px;
+  }
+}
+.bg__color {
+  background-color: #038c73 !important;
+}
+.bg__color > span {
+  color: white !important;
+}

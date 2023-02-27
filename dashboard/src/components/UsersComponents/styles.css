@@ -1,0 +1,93 @@
+.subscription {
+  color: #038c73;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tenure {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.email_address {
+  color: #038c73;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.email {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  margin-left: 10px;
+}
+.shipping_address {
+  color: #038c73;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.address {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.contact_number {
+  color: #038c73;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.number {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.edit {
+  background-color: #038c73;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 968px) {
+  .subscription {
+    font-size: 16px;
+  }
+  .tenure {
+    font-size: 16px;
+    margin-left: 2px !important;
+  }
+  .email_address {
+    font-size: 16px;
+  }
+  .email {
+    font-size: 14px;
+    margin-left: 2px !important;
+  }
+  .contact_number {
+    font-size: 16px;
+  }
+  .number {
+    font-size: 16px;
+    margin-left: 2px;
+  }
+  .shipping_address {
+    font-size: 16px;
+  }
+  .address {
+    font-size: 16px;
+    margin-left: 2px;
+  }
+  .edit {
+    margin-top: 10px;
+  }
+}

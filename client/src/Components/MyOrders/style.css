@@ -1,0 +1,38 @@
+.order_head{
+    color: #038c73;
+    font-weight: 600;
+}
+
+.btn_view{
+    background-color: #038c73;
+    color: white;
+    padding: 2px 18px 2px 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.green_color{
+    color: #038c73;
+}
+
+.red_color{
+    color: rgb(245, 30, 30);
+}
+
+.no_orders{
+    color: #038c73;
+}
+
+.goto_shop{
+    color: #038c73;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:968px) {
+    .table_wrapper{
+        overflow-x: scroll;
+    }
+}

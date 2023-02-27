@@ -1,0 +1,15 @@
+.step_icon{
+    font-size: 72px;
+    color: #038c73;
+}
+
+.steps_heading{
+    color: #038c73;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.steps_para{
+    font-weight: 500;
+    margin-bottom: 30px;
+}

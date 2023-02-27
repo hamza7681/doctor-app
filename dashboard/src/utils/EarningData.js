@@ -1,0 +1,80 @@
+export const EarningData = [
+    {
+        name: 'Syed Salleh',
+        dilivered: true,
+        payment: 5000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'hello',
+        dilivered: false,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'Ali',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'Adeel',
+        dilivered: false,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'Sam',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'done',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'd09090',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'reactjs',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'nodejs',
+        dilivered: false,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'expressjs',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'styled-components',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'tailwindcss',
+        dilivered: true,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+    {
+        name: 'node_modules',
+        dilivered: false,
+        payment: 3000,
+        date: 'Dec 18, 2022',
+    },
+]

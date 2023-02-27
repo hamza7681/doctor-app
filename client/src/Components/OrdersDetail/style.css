@@ -1,0 +1,123 @@
+.order_detail_head{
+    color: #038c73;
+    font-weight: 600;
+}
+
+.detail_img{
+    width: 110px;
+    height: 110px;
+}
+
+.detail_title{
+    color: #038c73;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    top: 30px;
+}
+
+.detail_priceqty{
+color: rgb(58, 58, 58);
+font-weight: 500;
+font-size: 20px;
+position: relative;
+top: 30px;
+}
+
+.order_list{
+    border-bottom: 1px dotted rgb(163, 163, 163);
+}
+
+.order_list_wrapper{
+
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.shipping_wrapper{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.order_no{
+    color: #038c73;
+    font-weight: 500;
+
+}
+
+.order_date{
+    color: #888888;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    top: -20px;
+}
+
+.calc{
+    color: #038c73;
+    font-weight: 500;
+}
+
+.pri{
+    color: black;
+    font-weight: 500;
+}
+
+.amount{
+    text-align: right;
+}
+
+.shipping_address{
+    color: #038c73;
+
+}
+
+.shipping_para{
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+}
+
+.whatsapp{
+    width: 40px;
+    height: 40px;
+}
+
+.whats_no{
+    color: rgb(44, 44, 44);
+    position: relative;
+    left: 3px;
+    top: 1px;
+}
+
+.email{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+}
+
+.email_add{
+    color: rgb(44, 44, 44);
+    position: relative;
+    left: 3px;
+    top: 10px;
+}
+
+
+@media screen and (max-width:768px){
+    .detail_img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .detail_title{
+        top: 20px;
+        font-size: 18px;
+        left: 6px;
+        }
+    .detail_priceqty{
+        top: 20px;
+        font-size: 18px;
+         
+    }
+}

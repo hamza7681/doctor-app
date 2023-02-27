@@ -1,0 +1,56 @@
+.med_formula {
+  color: #038c73;
+  font-weight: bold;
+}
+
+.formula {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin-left: 10px;
+}
+
+.product_sold {
+  color: #038c73;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.sold {
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  margin-left: 10px;
+}
+
+.main_heading{
+    color: #038c73;
+    font-weight: bold;
+}
+
+
+.main_wrapper {
+  background-color: #eff6ff;
+  border-radius: 14px;
+}
+
+.chartone_heading,
+.charttwo_heading {
+  color: #038c73;
+  font-weight: bold;
+}
+@media screen and (max-width: 968px) {
+  .med_formula {
+    font-size: 16px;
+  }
+  .formula {
+    font-size: 16px;
+    margin-left: 2px !important;
+  }
+  .product_sold {
+    font-size: 16px;
+  }
+  .sold {
+    font-size: 14px;
+    margin-left: 2px !important;
+  }
+ 
+}
